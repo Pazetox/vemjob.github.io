@@ -1127,7 +1127,7 @@ input[type='checkbox'] {
 /*     11. Request     */
 /***********************/
 .form-1 {
-	padding-top: 6.875rem;
+	padding-top: 4.875rem;
 	padding-bottom: 6.25rem;
 	background-color: #f9fafc;
 }
@@ -1939,7 +1939,8 @@ a:hover.back-to-top {
 
 	/* Request */
 	.form-1 {
-		padding-top: 7.5rem;
+		/* padding-top: 7.5rem; */
+		padding-top: 4.875rem;
 	}
 
 	.form-1 .text-container {
@@ -2186,6 +2187,7 @@ a:hover.back-to-top {
 /* end of min-width width 1200px */
 
 /*teste*/
+
 
  
 
