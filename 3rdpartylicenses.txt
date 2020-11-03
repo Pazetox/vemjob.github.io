@@ -64,6 +64,8 @@ SOFTWARE.
 
 
 
+ngx-device-detector
+
 rxjs
 Apache-2.0
                                Apache License
