@@ -9,26 +9,34 @@
     "use strict";
 
     /* Preloader */
-    $(window).on('load', function () {
+    $(document).ready(function (){
         var preloaderFadeOutTime = 500;
         function hidePreloader() {
             var preloader = $('.spinner-wrapper');
             setTimeout(function () {
                 preloader.fadeOut(preloaderFadeOutTime);
+                //console.log('preloader.fadeOut');
             }, 500);
         }
         hidePreloader();
+        //console.log('preloader.fadeIn');
+        
     });
 
 
     /* Navbar Scripts */
     // jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function () {
+       try{
         if ($(".navbar").offset().top > 60) {
             $(".fixed-top").addClass("top-nav-collapse");
         } else {
             $(".fixed-top").removeClass("top-nav-collapse");
         }
+
+       // alert("script teste");
+    }
+    catch{}
     });
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
