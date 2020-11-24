@@ -1,0 +1,269 @@
+[
+	{
+		"id": 1,
+		"description": "Aulas",
+		"level": "step1",
+		"SubLevel": [
+			{
+				"id": 100,
+				"description": "Academicos",
+				"level": "step2",
+				"SubLevel": [
+					{
+						"id": 1000,
+						"description": "Concursos",
+						"level": "step3",
+						"SubLevel": [
+							{
+								"id": 10000,
+								"description": "Informações Complementares",
+								"level": "step4",
+								"SubLevel": [],
+								"Questions": [
+									{
+										"Id": 200,
+										"Tipo": "Text",
+										"Description": "Adicione Alguma Informação?",
+										"Ranges": []
+									},
+									{
+										"Id": 200,
+										"Tipo": "Select",
+										"Description": "Qual é o tema de estudo?",
+										"Ranges": [
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Administração"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Direito"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Idiomas"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Outros"
+											}
+										]
+									},
+									{
+										"Id": 200,
+										"Tipo": "Select",
+										"Description": "Qual será a frequência das aulas?",
+										"Ranges": [
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Aula Única"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "1x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "2x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "3x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Quinzenal"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Mensal"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Outro"
+											}
+										]
+									},
+									{
+										"Id": 200,
+										"Tipo": "Select",
+										"Description": "Qual será a frequência das aulas?",
+										"Ranges": [
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Aula Única"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "1x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "2x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "3x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Quinzenal"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Mensal"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Outro"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 1,
+						"description": "Escolares e Reforço",
+						"level": "step3",
+						"SubLevel": [
+							{
+								"id": 1,
+								"description": "Informações Complementares",
+								"level": "step4",
+								"SubLevel": [],
+								"Questions": [
+									{
+										"Id": 200,
+										"Tipo": "Select",
+										"Description": "Qual será a frequência das aulas?",
+										"Ranges": [
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Aula Única"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "1x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "2x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "3x por semana"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Quinzenal"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Mensal"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Outro"
+											}
+										]
+									},
+									{
+										"Id": 200,
+										"Tipo": "Select",
+										"Description": "A aula será presencial ou online?",
+										"Ranges": [
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Presencial"
+											},
+											{
+												"id": 1,
+												"valueFrom": "",
+												"valueTo": "",
+												"Description": "Online"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 1,
+						"description": "Idiomas",
+						"level": "step3"
+					}
+				]
+			},
+			{
+				"id": 1,
+				"description": "Artes e Entretenimento",
+				"level": "step2"
+			},
+			{
+				"id": 1,
+				"description": "Esportes",
+				"level": "step2"
+			},
+			{
+				"id": 1,
+				"description": "Tecnologia",
+				"level": "step2"
+			}
+		]
+	}
+]
